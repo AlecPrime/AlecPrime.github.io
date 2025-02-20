@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TV hode - Alex Wennemo Sandbekken</title>
+    <title>Team Maudal kamera arm - Alex Wennemo Sandbekken</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/images/ThickLineSilhouette.svg">
 </head>
@@ -32,7 +32,7 @@
     <main class="content">
         
 <header class="display-header">
-  <h1 class="display-title">TV hode</h1>
+  <h1 class="display-title">Team Maudal kamera arm</h1>
   
 </header>
 
@@ -46,8 +46,6 @@
       
         <a href="/projects/?theme=Mikrokontroller" class="tag">Mikrokontroller</a>
       
-        <a href="/projects/?theme=Pågående" class="tag">Pågående</a>
-      
     </div>
 </div>
 
@@ -58,42 +56,38 @@
       
       <div class="display-body">
         </div>
+<p><img class="project-image" src="/assets/images/Projects/TeamMaudal/TeamMaudal.jpg" alt="Team Maudal"></p>
 <div class="section-box">
 <div class="text-section">
-<p>Jeg har et pågående prosjekt der jeg har lyst til å lage et TV hode som jeg kan ha på meg.</p>
-<p>Jeg ble inspirert til å lage det etter å ha sett på videoer som <a class="source" target="_blank" href="https://www.youtube.com/watch?v=yEIA7uc1x5s&amp;t=383s">Minbitt sin video</a> der hun lager et kult TV hode.</p>
+<p>Daniel Maudal har en sjelden muskel sykdom som gjør musklene svakere, dette gjør at han er avhengig av rullestol og BPA(Brukerstyrt Personlig Assistent).
+Team Maudal går ut på å vise at uansett hvilke begrensninger man har, så kan man alltid leve livet til det fulle.<br>
+Daniel bruker sosiale medier som <a class="source" target="_blank" href="https://www.instagram.com/teammaudal/">Instagram</a> og <a class="source" target="_blank" href="https://www.tiktok.com/@teammaudal">TikTok</a> til å vise at livet handler ikke om hva man ikke kan gjøre, men hva man kan.</p>
 </div>
 <div class="image-section">
-<p><img class="project-image" src="/assets/images/Projects/TVHead/MinbittHead.png" alt="Minbitt TV hode"></p>
-</div>
-</div>
-<div class="section-box">
-<div class="image-section">
-<p><img class="project-image" src="/assets/images/Projects/TVHead/FrameFusion.png" alt="Fusion design av TV hode"></p>
-</div>
-<div class="text-section">
-<p>Jeg har laget selve TV hode flere ganger i fusion, men har ikke enda printet noe på grunn av at jeg vi få alle de elektroniske delene til å fungere sammen for å vite hva de trenger av fester slik at jeg kan implimentere det inn i modellen.</p>
-</div>
-</div>
-<div class="section-box">
-<div class="text-section">
-<p>Den elektroniske delen av prosjektet er en <a class="source" target="_blank" href="https://www.aliexpress.com/item/1005005720691780.html?spm=a2g0o.order_list.order_list_main.9.1ab01802UfTOCU">64 x 64 led matrix</a> som skal brukes som skjermen. Den styres av en <a class="source" target="_blank" href="https://www.makerfabs.com/esp32-trinity.html">ESP32-Trinity</a>, som er en ESP32 mikrokontroller som er designet for å plugge inn i og kontrollere en led matrix skjerm.</p>
-<div class="spacer"></div>
-<p>Jeg har fått skjermen til å vise en gif jeg har laget på repeat. Planen er å få den til å vise et fjes, og endre ansiktsutrykk basert på enten en kontroller med knapper, eller en sensor av noe slag. Jeg har også lyst til å få den til å animere snakking når den plukker opp lyd fra <a class="source" target="_blank" href="https://www.aliexpress.com/item/1005004019287254.html?spm=a2g0o.order_detail.order_detail_item.2.219df19c4NbXtu">mikrofonen</a> jeg skal installere, likt som i <a class="source" target="_blank" href="https://www.youtube.com/watch?v=yEIA7uc1x5s&amp;t=383s">Minbitt sin video</a>.</p>
-</div>
-<div class="image-section">
-<p><img class="project-image" src="/assets/images/Projects/TVHead/ScreenHeartbeat.jpg" alt="Skjerm"></p>
+<p><img class="project-image" src="/assets/images/Projects/TeamMaudal/MaudalTalking.jpg" alt="Jeg snakker med Daniel Maudal"></p>
 </div>
 </div>
 <div class="section-box">
 <div class="image-section">
-<p><img class="project-image" src="/assets/images/Projects/TVHead/XiaoESP32S3Sense.jpg" alt="Xiao ESP32S3 Sense"></p>
+<p><img class="project-image" src="/assets/images/Projects/TeamMaudal/CamArmEnd.jpg" alt="Kamera på armen"></p>
 </div>
 <div class="text-section">
-<p>Delen jeg har hatt mest trøbbel med er å kunne se noe mens jeg har hode på. Der har jeg kjøpt en <a class="source" target="_blank" href="https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html">Seeed studio Xiao ESP32S3 Sense</a> som jeg skal bruke som kamera, og den skal sende en live feed fra kamera til en <a class="source" target="_blank" href="https://www.waveshare.com/1.28inch-LCD-Module.htm">Waveshare 1.28inch LCD module</a>.</p>
-<p>Jeg har hatt mye trøbbel med å få Xiaoen til å kontrollere waveshare skjermen. Det er ganske mye dokumentasjon på hvordan få skjermen til å fungere med en vanlig ESP32, men siden Xiaoen har <a class="source" target="_blank" href="https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#hardware-overview">få koblingspunkter og alle er miltifunksjonelle</a> så har det vært vanskelig å få den til å styre skjermen slik dokumentasjonen sier. Jeg har fått skjermen til å fungere med en arduino uno ved å følge <a class="source" target="_blank" href="https://www.waveshare.com/wiki/1.28inch_LCD_Module">waveshare sin dokumentasjon</a> og <a class="source" target="_blank" href="https://dronebotworkshop.com/gc9a01/">denne youtube videoen</a> av DroneBot Workshop.</p>
+<p>På skolen hadde teknologi og design en samarbeidoppgave med Team Maudal der vi fikk oppgaven å lage en prototype av rullestol bruker vennlige hjelpemidler/leker.</p>
+<p>Min gruppe bestemte seg for at vi skulle lage en bruker styrt kamera arm, så Daniel selv kan kontrollere hva slaks bilder han har lyst til å ta ved bruk av telefonen of en joystick.</p>
+<p>Prototypen bruker en <a class="source" target="_blank" href="https://www.insta360.com/product/insta360-go">Insta360 GO</a> som de allerede hadde, så vi designet en holder til den. Selve armen er en <a class="source" target="_blank" href="https://www.clasohlson.com/no/Selfiestang-med-tripod-og-fjernutloser/p/Pr389480000">selfie stick fra Clas Ohlson</a> vi hadde liggende som vi har designet endefeste og holder i basen for rotasjon.</p>
+<p><img class="project-image" src="/assets/images/Projects/TeamMaudal/HoldingMechanism.png" alt="Base for selfie stick"></p>
 </div>
 </div>
+<div class="section-box">
+<div class="image-section">
+<p><img class="project-image" src="/assets/images/Projects/TeamMaudal/CamArmElectronics.jpg" alt="Elektronikk for rotasjon"></p>
+</div>
+<div class="text-section">
+<p>Elektronikken består av to små stepper motorer, en seeed studio xiao, og en joystick.</p>
+<p>Siden det er en prototype hadde vi ikke tid eller ressurser til å lage en justerbar teleskopisk arm slik som vi hadde ønsket i det faktiske produktet.</p>
+</div>
+</div>
+
       </div>
     </section>
   </article>
